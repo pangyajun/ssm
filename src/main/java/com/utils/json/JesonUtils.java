@@ -143,7 +143,7 @@ public class JesonUtils {
 		Class[] clazz= {Price.class,Spec.class,SpecValue.class,User.class};
 		 SaleConfig jsonToObject1 = jsonToObject(str1, SaleConfig.class, clazz);
 		 System.out.println(jsonToObject1.getListPrice());
-		//System.out.println(str1);
+		System.out.println(str1);
 		
 	}
 }
